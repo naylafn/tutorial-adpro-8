@@ -26,8 +26,8 @@ pub struct TransactionResponse {
     pub transaction_id: ::prost::alloc::string::String,
     #[prost(string, tag = "2")]
     pub status: ::prost::alloc::string::String,
-    #[prost(string, tag = "3")]
-    pub amount: ::prost::alloc::string::String,
+    #[prost(double, tag = "3")]
+    pub amount: f64,
     #[prost(string, tag = "4")]
     pub timestamp: ::prost::alloc::string::String,
 }
